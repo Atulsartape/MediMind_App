@@ -12,7 +12,6 @@ load_dotenv()
 
 
 #Set your OpenAI API key
-#os.environ['OPENAI_API_KEY'] = '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'  # Replace with your actual key
 os.environ['OPENAI_API_KEY'] = os.getenv('OPENAI_API_KEY')
 
 # One-time setup (run once when app starts)
